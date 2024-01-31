@@ -145,3 +145,7 @@ alias node14='export PATH="/opt/homebrew/opt/node@14/bin:$PATH"'
 alias php74='valet use 7.4'
 alias php81='valet use 8.1'
 alias php82='valet use 8.2'
+alias php83='valet use 8.3'
+
+# Add Composer Global Bin to Path
+export PATH="$PATH:$HOME/.composer/vendor/bin"
